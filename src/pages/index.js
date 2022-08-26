@@ -49,27 +49,7 @@ const Home = () =>
   return (
     <Layout pageTitle="Software for Magazine Publishers . Magazinecrm">
      <BannerOne/>
-     <div>
-      <h2>subscribe to our email</h2>
-    </div>
-     <form className="form-group" onSubmit={submitHandler}>
-
-            <input
-              type="email"
-              
-              className="form-field"
-              placeholder="Email"
-              autoFocus
-              onChange={(e) => setFirstName(e.target.value)}
-              value={firstName}
-            />
-             <input
-              type="submit"
-              value="Submit"
-              className="submit-btn"
-              onClick={resetInputFields}
-            />
-            </form>
+    
 <ServiceOne /> 
      <CtaThree />
     
