@@ -73,24 +73,6 @@ const BannerOne = () => {
       <h2 className="banner-one__tag-line">subscribe to our email</h2>
     </div>
     
-              <form className="form-group" onSubmit={submitHandler}>
-
-<input
-  type="email"
-  
-  className="form-field"
-  placeholder="Email"
-  autoFocus
-  onChange={(e) => setFirstName(e.target.value)}
-  value={firstName}
-/>
- <input
-  type="submit"
-  value="Submit"
-  className="submit-btn"
-  onClick={resetInputFields}
-/>
-</form>
             </div>
           </Col>
         </Row>

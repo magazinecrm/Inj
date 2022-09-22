@@ -20,8 +20,8 @@ const headerData = {
     },
     {
       id: 4,
-      href: "#testimonials",
-      name: "Testimonials",
+      href: "/swissmagtools",
+       name: "ForSwitzPublishers",
     },
     {
       id: 5,
